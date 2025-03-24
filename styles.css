@@ -14,9 +14,11 @@ header {
     background-color: #ffffff;
 }
 
+
 section {
     padding-bottom: 5rem;
 }
+
 
 .nav-link {
     color: #CB6D43;
@@ -45,6 +47,7 @@ section {
     height: auto;
 }
 
+
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
@@ -52,14 +55,13 @@ section {
     gap: 1rem;
 }
 
+
 .botao-inicio {
     background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
-    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
-    /* Convertido para em */
     align-content: center;
 
 }
@@ -67,6 +69,7 @@ section {
 .display-4 {
     text-shadow: -5px 5px var(--laranja-claro);
 }
+
 
 #tropicalia {
     position: relative;
@@ -87,6 +90,7 @@ section {
     z-index: 1;
     /* Garante que o conteúdo fica acima das imagens do background */
 }
+
 
 h2 {
     font-family: 'Lemon', serif;
@@ -120,7 +124,7 @@ h2 {
     border-radius: 10px;
     /* Borda arredondada para o formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */- 
+    /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
@@ -130,7 +134,6 @@ h2 {
     font-weight: bold;
 }
 
-/* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
 }
